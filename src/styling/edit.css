@@ -1,0 +1,19 @@
+.edit-form-container {
+    max-width: 500px; /* Limit the form width */
+    margin: 0 auto;   /* Center the form horizontally */
+    padding: 20px;    /* Add padding */
+    background-color: #f9f9f9; /* Light background for clarity */
+    border: 1px solid #ddd; /* Optional border for clarity */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.edit-form-container .mantine-TextInput-root,
+.edit-form-container .mantine-Select-root {
+    margin-bottom: 15px; /* Space between form inputs */
+}
+
+.edit-form-container button {
+    display: block;
+    width: 100%; /* Make the submit button full width */
+}

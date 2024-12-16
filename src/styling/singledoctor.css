@@ -1,0 +1,41 @@
+.single-doctor-container {
+    max-width: 500px; /* Limit the width of the content */
+    margin: 0 auto;   /* Center the content horizontally */
+    padding: 20px;    /* Add padding */
+    background-color: #f9f9f9; /* Light background for clarity */
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.single-doctor-container h1,
+.single-doctor-container h2 {
+    text-align: center; /* Center-align the headings */
+    margin-bottom: 10px; /* Add spacing below headings */
+}
+
+.single-doctor-container p {
+    text-align: center; /* Center-align paragraph text */
+    font-size: 16px; /* Standardize font size */
+    color: #555; /* Subtle text color */
+    margin-bottom: 20px; /* Add spacing below paragraph */
+}
+
+.single-doctor-container .edit-link {
+    display: block;
+    text-align: center;
+    text-decoration: none; /* Remove default underline */
+    background-color: #1a73e8; /* Button-like blue background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    transition: background-color 0.3s ease;
+}
+
+.single-doctor-container .edit-link:hover {
+    background-color: #1558b2; /* Darker blue on hover */
+}

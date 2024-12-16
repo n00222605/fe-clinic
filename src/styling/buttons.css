@@ -1,0 +1,15 @@
+.button-container {
+    display: flex;            /* Enable flexbox layout */
+    justify-content: space-between; /* Evenly distribute buttons */
+    align-items: center;      /* Align items vertically in the center */
+    width: 100%;              /* Use the full width of the container */
+    padding: 10px 0;          /* Add spacing above and below the buttons */
+    gap: 10px;                /* Add spacing between buttons (optional) */
+}
+
+.button-container button {
+    flex: 1;                  /* Allow buttons to grow and take equal space */
+    margin: 0 10px;           /* Add small margins on either side of the buttons */
+    text-align: center;       /* Ensure button text is centered */
+    max-width: 200px;         /* Set a max width to prevent buttons from stretching too much */
+}
