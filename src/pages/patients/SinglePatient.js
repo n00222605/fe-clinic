@@ -3,7 +3,7 @@ import axios from "axios";
 import { useParams, Link } from "react-router-dom";
 import { useAuth } from "../../utils/useAuth";
 
-import "../../styling/singlepatient.css"; // Ensure this path matches your file structure
+import "../../styling/singlepatient.css";
 
 const SinglePatient = () => {
   const { token } = useAuth();

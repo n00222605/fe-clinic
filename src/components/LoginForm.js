@@ -13,7 +13,6 @@ const LoginForm = () => {
     })
 
     const handleSubmit = (e) => {
-        // The form will cause a refresh by default. We don't want that, because our state will disappear.
         e.preventDefault();        
 
         login(form.email, form.password)
